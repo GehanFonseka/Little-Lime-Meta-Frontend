@@ -1,0 +1,43 @@
+article.LL-Card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--box-shadow-2);
+  background-color: var(--color-off-white);
+  flex-wrap: wrap;
+}
+
+.LL-CardImage {
+  display: block;
+  width: 100%;
+}
+
+.LL-CardImage img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.LL-CardImage .top-full {
+  width: 100%;
+}
+
+.LL-CardImage.top-full img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.LL-CardImage.left {
+  width: auto;
+}
+
+.LL-CardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+@media only screen and (max-width: 824px) {
+  article.LL-Card {
+    width: 100% !important;
+  }
+}

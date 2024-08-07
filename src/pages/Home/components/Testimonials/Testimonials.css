@@ -1,0 +1,32 @@
+.LL-Testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  background-color: var(--color-off-white);
+  padding: 4.5rem 2.25rem;
+}
+
+.LL-Testimonials-Carousel {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.LL-Testimonials-Carousel .LL-Card {
+  flex-basis: 25%;
+}
+
+.LL-Testimonial-Review {
+  color: var(--color-primary);
+}
+
+@media only screen and (max-width: 768px) {
+  .LL-Testimonials-Carousel {
+    flex-wrap: wrap;
+  }
+  .LL-Testimonials-Carousel .LL-Card {
+    flex-basis: 40%;
+  }
+}

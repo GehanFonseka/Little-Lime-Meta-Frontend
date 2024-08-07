@@ -1,0 +1,29 @@
+{
+  "short_name": "Little Lemon",
+  "name": "Little Lemon - Order and Book at your local Mediterranean Restaurant",
+  "icons": [
+    {
+      "src": "little-lemon-logo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "little-lemon-logo.png",
+      "type": "image/png",
+      "sizes": "704x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Book a Table",
+      "short_name": "Book Table",
+      "description": "Book a Table at Little Lemon",
+      "url": "/bookings",
+      "icons": [{ "src": "little-lemon-logo.png", "sizes": "704x192" }]
+    }
+  ]
+}

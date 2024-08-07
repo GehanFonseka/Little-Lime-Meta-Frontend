@@ -1,0 +1,8 @@
+main {
+  grid-column: 1 / span 12;
+  width: 100%;
+  height: 100%;
+  margin-top: var(--min-height-header) !important;
+  display: flex;
+  flex-direction: column;
+}

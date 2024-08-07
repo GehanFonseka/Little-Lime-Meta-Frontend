@@ -1,0 +1,29 @@
+footer {
+  grid-column: 1 / span 12;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 2.25rem 0 !important;
+  min-height: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  flex-wrap: wrap;
+  box-shadow: var(--box-shadow-3);
+}
+
+footer section:not(#LL-SocialMediaWidget),
+.LL-Logo.LL-FooterLogo {
+  padding: 0 40px;
+}
+
+footer section[class^='LL-Footer'] {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.LL-FooterNavigation > ul > li {
+  padding: 4px 0;
+}

@@ -1,0 +1,36 @@
+.LL-TextfieldContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2.25rem auto;
+}
+
+input.LL-Textfield {
+  padding: 0.5rem 0;
+  margin: 0 1.25rem;
+  font-size: 1rem;
+  border-bottom: 2px solid;
+  border-bottom-color: var(--color-primary);
+  transition: 0.2s ease-in-out;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  gap: 10px;
+}
+
+input[data-focus='true'] {
+  border-bottom-color: var(--color-black-full);
+}
+
+input.error {
+  border-bottom-color: var(--color-alert-error);
+}
+
+label[data-focus='true'],
+label[data-input='true'] {
+  transform: translateY(-1.5rem);
+  font-size: 0.875rem;
+}
+
+section.LL-TextfieldErrors {
+  padding: 0.5rem 1.25rem;
+}

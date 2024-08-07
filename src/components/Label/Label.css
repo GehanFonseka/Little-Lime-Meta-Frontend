@@ -1,0 +1,21 @@
+label.LL-Label {
+  padding: 0 1.25rem;
+  color: var(--color-black);
+  display: inline-flex;
+  gap: 0.625rem;
+  position: absolute;
+  transform: translateY(0.25rem);
+  transition: 0.2s ease-out;
+}
+
+.LL-Label.error {
+  color: var(--color-alert-error);
+  transition: 0.2s ease-out;
+}
+
+.LL-Label > span.LL-Label-Required,
+.LL-Label[data-required='true']::after {
+  content: '*';
+  color: var(--color-alert-error);
+  font-size: 1.25rem;
+}
