@@ -1,20 +1,3 @@
-# Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [The Booking App](#the-booking-app)
-- [Setup and Evaluation](#setup-and-evaluation)
-- [Front-end Architecture](#front-end-architecture)
-  - [Folder Structure](#folder-structure)
-  - [Component Architecture](#component-architecture)
-  - [Naming Conventions](#naming-conventions)
-  - [Use of Dependencies](#use-of-dependencies)
-  - [Data Fetching](#data-fetching)
-  - [Unit Testing](#unit-testing)
-- [Future Considerations](#future-considerations)
-- [Honour Code](#honour-code)
-
----
-
 # The Booking App
 
 This Booking App was created as the final capstone project of the **Meta Front-End Developer Certification**.
